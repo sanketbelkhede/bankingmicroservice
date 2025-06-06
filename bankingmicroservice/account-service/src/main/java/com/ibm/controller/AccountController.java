@@ -2,6 +2,7 @@ package com.ibm.controller;
 
 import com.ibm.entity.Account;
 import com.ibm.service.AccountService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -9,12 +10,14 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/accounts")
+@Slf4j
 public class AccountController {
     @Autowired
     private AccountService accountService;
 
     @PostMapping("/save")
     public Account create(@RequestBody Account account) {
+        log.info("Calling create new account API");
         return accountService.save(account);
     }
 
