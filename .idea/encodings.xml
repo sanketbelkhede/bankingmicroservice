@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bankingmicroservice/account-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bankingmicroservice/account-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bankingmicroservice/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bankingmicroservice/auth-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bankingmicroservice/customer-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bankingmicroservice/discovery-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bankingmicroservice/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bankingmicroservice/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/bankingmicroservice/transaction-service/src/main/java" charset="UTF-8" />
+  </component>
+</project>
